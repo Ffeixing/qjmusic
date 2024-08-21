@@ -35,8 +35,23 @@ nav ul li a {
     margin: 20px;
 }
 
+.carousel {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.carousel-slide {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    transition: transform 0.5s ease-in-out;
+}
+
 .carousel img {
-    width: 500px;
+    width: 600px;
     height: 300px;
     border-radius: 10px;
 }
@@ -54,7 +69,7 @@ nav ul li a {
 .announcement {
     background-color: #0099cc;
     color: white;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
     margin: 20px;
     border-radius: 10px;
